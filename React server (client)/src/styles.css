@@ -1,0 +1,33 @@
+/* Insert your CSS styles here */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table#GameBoard th, table.GameBoard td {
+    font-size: 3em;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+}
+
+table#PlayerScores > caption {  /* targets tables with the id of "PlayerScores" and the direct child of table tag caption  */
+    caption-side: top;
+    text-align: center;
+}
+
+.ValidLastCell {
+    background-color: lightgreen;
+}
+
+.InvalidLastCell {
+    background-color: salmon;
+}
+
+.ValidCell {
+    background-color: green;
+}
+
+.InvalidCell {
+    background-color: red;
+}
